@@ -14,7 +14,13 @@ Project AETHERIS is an automated, high-performance Python pipeline built to stre
 * **Automated TOI Vetting System:** Runs high-density Box Least Squares (BLS) periodogram arrays to extract transit periods, calculating Signal-to-Noise Ratios (SNR) and secondary depths to automatically isolate astronomical false positives.
 
 ---
+🛠️ Quick Start
+Installation
+Ensure your runtime terminal machine has active outbound internet access enabled to allow the engine to query data vectors from the MAST archive. Install dependencies via pip:
 
+Bash
+pip install lightkurve astroquery
+Running the Pipeline
 ## 📊 Target Analysis Case Study: TIC 350618622
 
 During pipeline validation testing on cloud server architectures, AETHERIS executed a comprehensive vetting run across a target array compiled from 62 raw historical sectors, utilizing a downsampled 3-sector baseline window. 
@@ -59,13 +65,7 @@ Target Objective: TIC 350618622
 ==================================================
 [SUCCESS] Flat file compilation completed inside directory: System_TIC_350618622/
 ==================================================
-🛠️ Quick Start
-Installation
-Ensure your runtime terminal machine has active outbound internet access enabled to allow the engine to query data vectors from the MAST archive. Install dependencies via pip:
 
-Bash
-pip install lightkurve astroquery
-Running the Pipeline
 Place your target files alongside the primary engine file and execute:
 
 Bash
