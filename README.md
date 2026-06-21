@@ -18,14 +18,6 @@ Project AETHERIS is an automated, high-performance Python pipeline built to stre
 Installation
 Ensure your runtime terminal machine has active outbound internet access enabled to allow the engine to query data vectors from the MAST archive. Install dependencies via pip:
 
-Bash
-pip install lightkurve astroquery
-Running the Pipeline
-Place your target files alongside the primary engine file and execute:
-
-Bash
-python3 ProjectAetheris.py
-
 ## 📊 Target Analysis Case Study: TIC 350618622
 
 During pipeline validation testing on cloud server architectures, AETHERIS executed a comprehensive vetting run across a target array compiled from 62 raw historical sectors, utilizing a downsampled 3-sector baseline window. 
