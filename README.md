@@ -13,7 +13,7 @@ Project AETHERIS is an automated, high-performance Python pipeline built to stre
 * **Content-Aware Noise Removal:** Automatically calculates light curve variance metrics to intelligently compute optimal flattening windows, protecting shallow transits while removing stellar noise.
 * **Automated TOI Vetting System:** Runs high-density Box Least Squares (BLS) periodogram arrays to extract transit periods, calculating Signal-to-Noise Ratios (SNR) and secondary depths to automatically isolate astronomical false positives.
 
----
+--- 
 🛠️ Quick Start
 Installation
 Ensure your runtime terminal machine has active outbound internet access enabled to allow the engine to query data vectors from the MAST archive. Install dependencies via pip:
@@ -21,6 +21,11 @@ Ensure your runtime terminal machine has active outbound internet access enabled
 Bash
 pip install lightkurve astroquery
 Running the Pipeline
+Place your target files alongside the primary engine file and execute:
+
+Bash
+python3 ProjectAetheris.py
+
 ## 📊 Target Analysis Case Study: TIC 350618622
 
 During pipeline validation testing on cloud server architectures, AETHERIS executed a comprehensive vetting run across a target array compiled from 62 raw historical sectors, utilizing a downsampled 3-sector baseline window. 
