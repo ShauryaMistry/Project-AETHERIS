@@ -59,3 +59,14 @@ Target Objective: TIC 350618622
 ==================================================
 [SUCCESS] Flat file compilation completed inside directory: System_TIC_350618622/
 ==================================================
+🛠️ Quick Start
+Installation
+Ensure your runtime terminal machine has active outbound internet access enabled to allow the engine to query data vectors from the MAST archive. Install dependencies via pip:
+
+Bash
+pip install lightkurve astroquery
+Running the Pipeline
+Place your target files alongside the primary engine file and execute:
+
+Bash
+python3 ProjectAetheris.py
