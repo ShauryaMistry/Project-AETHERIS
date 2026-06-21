@@ -14,9 +14,6 @@ Project AETHERIS is an automated, high-performance Python pipeline built to stre
 * **Automated TOI Vetting System:** Runs high-density Box Least Squares (BLS) periodogram arrays to extract transit periods, calculating Signal-to-Noise Ratios (SNR) and secondary depths to automatically isolate astronomical false positives.
 
 --- 
-🛠️ Quick Start
-Installation
-Ensure your runtime terminal machine has active outbound internet access enabled to allow the engine to query data vectors from the MAST archive. Install dependencies via pip:
 
 ## 📊 Target Analysis Case Study: TIC 350618622
 
