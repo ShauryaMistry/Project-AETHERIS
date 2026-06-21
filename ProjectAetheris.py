@@ -390,6 +390,6 @@ if __name__ == "__main__":
     # ==============================================================================
     # TARGET INJECTION ZONE
     # ==============================================================================
-    TARGET_OBJECT = "TIC 350618622"
+    TARGET_OBJECT = "ENTER TIC-ID OR TOI NAME"
     
     analyze_target_system(target_input=TARGET_OBJECT, max_planets_to_hunt=1)
