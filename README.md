@@ -34,6 +34,8 @@ modules/downloader.py: Data fetching engine.
 modules/bls.py: Transit search utilities.
 
 modules/gaia.py: Stellar property query engine.
+```
+Validation & Null Result: While the pipeline effectively bypassed the high-frequency 0.8-day noise wall and the ML classifier flagged a weak candidate at 8.3987 days (60.86% confidence), visual inspection of the binned phase-fold confirms a flat transit profile. The BLS engine latched onto random red-noise fluctuations within the active M-dwarf environment, demonstrating the vital necessity of human-in-the-loop vetting for low-confidence ML outputs.
 
 modules/plots.py: Custom dashboard canvas layout engine.
 
